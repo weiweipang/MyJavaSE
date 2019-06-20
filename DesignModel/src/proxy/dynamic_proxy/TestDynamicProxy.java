@@ -1,7 +1,8 @@
 package proxy.dynamic_proxy;
 
-import static_proxy.SellHouse;
-import static_proxy.Seller;
+
+import proxy.static_proxy.SellHouse;
+import proxy.static_proxy.Seller;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
