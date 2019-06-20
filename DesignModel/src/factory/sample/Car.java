@@ -1,0 +1,8 @@
+package factory.sample;
+
+/**
+ * Created by bitsino-001 on 2019/6/18.
+ */
+public interface Car {
+    void driveCar();
+}
