@@ -1,3 +1,5 @@
+package com.exp;
+
 /**
  * Created by bitsino_pww on 2019/11/27.
  */
@@ -18,7 +20,7 @@ public class parent {
     public static String  method2(){
         System.out.println("D");
 
-        return "parent";
+        return "com.exp.parent";
     }
 }
 

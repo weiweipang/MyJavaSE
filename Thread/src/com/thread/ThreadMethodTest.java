@@ -1,3 +1,5 @@
+package com.thread;
+
 /**
  * Thread类的常用方法的测试
  * 1.run():Thread的子类一定要重写的方法。将此分线程要执行的操作，声明在run()中

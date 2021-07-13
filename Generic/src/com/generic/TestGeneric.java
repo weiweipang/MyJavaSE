@@ -1,3 +1,5 @@
+package com.generic;
+
 import org.junit.Test;
 
 import java.util.ArrayList;

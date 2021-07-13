@@ -1,3 +1,5 @@
+package com.generic;
+
 import java.util.List;
 
 /**

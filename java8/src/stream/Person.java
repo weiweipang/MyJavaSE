@@ -50,7 +50,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "com.generic.Person{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", country='" + country + '\'' +

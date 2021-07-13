@@ -1,3 +1,5 @@
+package com.exp;
+
 /**
  * Created by bitsino_pww on 2019/11/27.
  */
@@ -19,7 +21,7 @@ class child extends  parent{
     public static String  method2(){
         System.out.println("H");
 
-        return "child";
+        return "com.exp.child";
     }
 
 }

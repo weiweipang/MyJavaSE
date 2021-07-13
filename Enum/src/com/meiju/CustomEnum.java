@@ -1,3 +1,5 @@
+package com.meiju;
+
 /**
  * Created by bitsino-001 on 2019/6/17.
  * 枚举是jdk1.5后的新特性，之前用自定义枚举
@@ -27,7 +29,7 @@ class Season {
 
     @Override
     public String toString() {
-        return "Season{" +
+        return "com.meiju.Season{" +
                 "NAME='" + NAME + '\'' +
                 ", DESC='" + DESC + '\'' +
                 '}';

@@ -53,7 +53,7 @@ public class ReflectTest {
 
             //获得Method的方式和Field类似,非public修饰的依旧需要通过暴力获取
 //            Method goToSchool = clazz.getMethod("goToSchool", null);
-            Method goToSchool = clazz.getDeclaredMethod("goToSchool", null);
+            Method goToSchool = clazz.getDeclaredMethod("goToSchool", Class.class);
             System.out.println(goToSchool);
 
             //通过反射获得类的全类名信息

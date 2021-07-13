@@ -1,3 +1,5 @@
+package com.meiju;
+
 /**
  * Created by bitsino-001 on 2019/6/17.
  * 可变参数测试,实际是将传入的多个参数封装成数组

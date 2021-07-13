@@ -1,3 +1,5 @@
+package com.meiju;
+
 /**
  * Created by bitsino-001 on 2019/6/17.
  */

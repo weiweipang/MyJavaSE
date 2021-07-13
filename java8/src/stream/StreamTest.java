@@ -133,6 +133,7 @@ public class StreamTest {
             p.setCountry("CHN");
             return p;
         }).collect(Collectors.toList()).forEach(System.out::println);
+
     }
 
 

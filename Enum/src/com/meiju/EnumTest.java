@@ -1,3 +1,5 @@
+package com.meiju;
+
 /**
  * Created by bitsino-001 on 2019/6/17.
  */
@@ -26,7 +28,7 @@ enum Seasons{
 
     @Override
     public String toString() {
-        return "Seasons{" +
+        return "com.meiju.Seasons{" +
                 "name='" + name + '\'' +
                 ", desc='" + desc + '\'' +
                 '}';

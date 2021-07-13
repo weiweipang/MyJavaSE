@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package com.inner;
 
 /**
  * Created by bitsino-001 on 2019/6/17.
@@ -55,7 +55,7 @@ class School{
         private String name1="学生B1";
         protected void showName(){
             System.out.println(name);
-            System.out.println(School.this.name);
+            System.out.println(name);
             System.out.println(address);
             System.out.println(area);
             System.out.println(work_time);
@@ -72,7 +72,7 @@ class School{
         private String name1="学生C1";
         protected void showName(){
             System.out.println(name);
-            System.out.println(School.this.name);
+            System.out.println(name);
             System.out.println(address);
             System.out.println(area);
             System.out.println(work_time);
@@ -90,7 +90,7 @@ class School{
         private String name1="学生D1";
         protected void showName(){
             System.out.println(name);
-            System.out.println(School.this.name);
+            System.out.println(name);
             System.out.println(address);
             System.out.println(area);
             System.out.println(work_time);

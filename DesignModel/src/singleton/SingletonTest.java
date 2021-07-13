@@ -11,5 +11,12 @@ public class SingletonTest {
         LanhanSingleton lanhanSingleton1 = LanhanSingleton.getLanhanSingleton();
         System.out.println(lanhanSingleton==lanhanSingleton1);
 
+
+        //枚举懒汉单例测试
+        LanhanSingleton4 lanhanSingleton4 = LanhanSingleton4.LANHAN_SINGLETON_4;
+        LanhanSingleton4 lanhanSingleton41 = LanhanSingleton4.LANHAN_SINGLETON_4;
+        System.out.println(lanhanSingleton4==lanhanSingleton41);
+
+
     }
 }
